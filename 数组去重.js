@@ -20,7 +20,7 @@ Array.prototype.uniq = function () {
   return arr
 }
 
-// set方法 运行时间：980ms 占用内存：77900KB
+// Set方法 运行时间：980ms 占用内存：77900KB
 Array.prototype.uniq = function () {
     return Array.from(new Set(this));
 }
