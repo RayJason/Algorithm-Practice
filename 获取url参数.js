@@ -1,5 +1,8 @@
 /**
- * @description
+ * @description 获取 url 中的参数
+ * 1. 指定参数名称，返回该参数的值 或者 空字符串
+ * 2. 不指定参数名称，返回全部的参数对象 或者 {}
+ * 3. 如果存在多个同名参数，则返回数组
  * @author RayJason
  * @date 2021/04/15
  * @param {*} sUrl 链接
@@ -43,7 +46,7 @@ function getUrlParam2(sUrl, sKey) {
     var res={};
     // console.log(r.exec(sUrl))
     while(r.exec(sUrl)!=null){
-        console.log(RegExp.$1)
+        // console.log(RegExp.$1)
         if(res[RegExp.$2]){
             var temp=res[RegExp.$2];
             res[RegExp.$2]=[].concat(temp,RegExp.$3)
