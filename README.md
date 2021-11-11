@@ -46,3 +46,10 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
   - 两数之和：找两个数满足相加之和等于目标数
     > 前提条件：数组有序
     > 二分查找 + 双指针 
+  - 反转字符串
+    > 双指针一把嗦
+  - 反转字符串中的单词
+    > 切开对单个单词翻转后合并
+    > + Array.from()
+    > + Array.join()
+    
