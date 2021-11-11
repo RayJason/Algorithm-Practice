@@ -28,10 +28,10 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
     > + 添加操作
     > + 删除操作
   - 环形链表
-    > I: 如果链表中有某个节点，可以通过连续跟踪 next 指针再次到达，则链表中存在环。 
+    > I: 如果链表中有某个节点，可以通过连续跟踪 next 指针再次到达，则链表中存在环。  
     > II: 给定一个链表，返回链表开始入环的第一个节点。 如果链表无环，则返回 null。
   - 相交链表
-    > 链式结构中不存在环
+    > 链式结构中不存在环  
     > 使用双指针将两个列表各走一次，走过的长度相等。当相等时，就是相交的节点
 
 - 2021.11.10
@@ -44,7 +44,7 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
 - 2021.11.11
   - 移动零
   - 两数之和：找两个数满足相加之和等于目标数
-    > 前提条件：数组有序
+    > 前提条件：数组有序  
     > 二分查找 + 双指针 
   - 反转字符串
     > 双指针一把嗦
@@ -52,4 +52,8 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
     > 切开对单个单词翻转后合并
     > + Array.from()
     > + Array.join()
-    
+  - 链表的中间结点
+    > 快慢指针一把嗦  
+    > + 题目要求结点个数为偶数时： `white(fast && fast.next)`  
+    > + 题目要求结点个数为偶数时： `white(fast.next && fast.next.next)` 
+    > ![alt 链表的中间结点讲解](pics/876链表的中间结点.png)
