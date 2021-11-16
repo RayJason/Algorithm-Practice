@@ -143,3 +143,28 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
     > 另外也要考虑重叠、空隙的情况
     > + 除了“完美矩形”的4个顶点出现1次外，其它顶点应该出现2或4次，使用Set来记录顶点出现次数
     > + 若不满足要求，则说明这不是“完美矩形”
+
+- 2021.11.17  
+  - 318 最大单词长度乘积  
+    > 使用位运算  
+    > + 声明一个Map存储bitmask码对应单词的长度
+    > + 预计算每个单词的bitmask，将bitmask作为key，单词长度作为value存在Map里  
+    ```JavaScript
+    // 计算每个单词的bitmask
+    let bitmask = 0
+    for (const c of words[i]) {
+      bitmask |= 1 << (c.charCodeAt() - 'a'.charCodeAt())
+    }
+    ```
+    > + 遍历Map中的每个key（bitmask）两次，如果两个单词`&`运算等于0，说明没有重复字母，答案保存单词长度乘积最大者
+    ```JavaScript
+    let ans = 0
+    for (const x of bitmaskMap.keys()) {
+      for (const y of bitmaskMap.keys()) {
+        if ((x & y) == 0) {
+          ans = Math.max(ans, bitmaskMap.get(x) * bitmaskMap.get(y))
+        }
+      }
+    }
+    ```
+    > + 返回答案
