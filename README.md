@@ -168,3 +168,16 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
     }
     ```
     > + 返回答案
+
+- 2021.11.18
+  - 563 二叉树的坡度
+    > 使用深度优先搜索递归回溯
+    > + 声明一个记录坡度和的变量`slopeSum`
+    > + 声明一个递归函数`dfs`
+    > + 在递归函数内，先判断传入的节点是否有值，若为null，返回0
+    > + 获取左子树的`val`合：`let leftVals = dfs(node.left)`
+    > + 获取右子树的`val`合：`let rightVals = dfs(node.right)`
+    > + 将当前节点的坡度累加给`slopeSum`：`slopeSum += Math.abs(leftVals - rightVals)`
+    > + 返回当前节点和左右节点的`val`合
+    > + + 对于根节点，最终返回的结果不影响自身
+    > + + 对于子节点，将返回给父节点其所有的`val`合（包括子树的`val`）
