@@ -242,3 +242,11 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
     |   a   |   a   |   a   |   b   |   b   |   c   |   c   |
     |   _   |   _   |   _   | start |   _   |  end  |   _   |
     
+  - 234 回文链表
+  - 328 奇偶链表
+  - 203 移除链表元素
+  - 2 两数相加
+
+- 2021.11.21
+  - 559 N叉树的最大深度
+    > 广度优先遍历 
