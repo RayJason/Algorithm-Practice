@@ -250,3 +250,6 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
 - 2021.11.21
   - 559 N叉树的最大深度
     > 广度优先遍历 
+
+- 2021.11.22 
+  - 384 打乱数组
