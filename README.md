@@ -43,7 +43,7 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
 
 - 2021.11.11
   - 283 移动零
-  - 167 两数之和：找两个数满足相加之和等于目标数
+  - 167 两数之和 II：找两个数满足相加之和等于目标数
     > 前提条件：数组有序  
     > 二分查找 + 双指针 
   - 344 反转字符串
@@ -263,3 +263,10 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
     > - - 如果出现第三个不一样的点直接return
     > - - 如果第二个指针还是初始值，也false
     > - - 如果 `s[first] === goal[second] && s[second] === goal[first]` 说明是亲密字符串
+
+  - 1 两数之和
+    > 暴力法：用两个for一一比较，复杂度是N^2级  
+    > 哈希法：将数字和下标存进map里，判断`target-nums[i]`是否在map中，如果存在，则返回`target-nums[i]`的下标和`i`。否则，继续存入map中。这种方法只需要遍历一次，复杂度N级
+
+  - 167 两数之和 II - 输入有序数组
+    > 双指针一把嗦，一个在头，一个在尾，向中间收缩，两数之和越来越接近`target`
