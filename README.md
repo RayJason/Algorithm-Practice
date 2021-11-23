@@ -253,3 +253,13 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
 
 - 2021.11.22 
   - 384 打乱数组
+
+- 2021.11.23
+  - 859 亲密字符串
+    > 开局第一步判断两个字符串长度是否一样，不一样直接返回false  
+    > 计算分两种情况：  
+    > 1. s和goal相等时，计算有没有重复字母
+    > 2. s和goal不相等时，遍历两个数组，用两个指针记录两个字符串不一样的位置
+    > - - 如果出现第三个不一样的点直接return
+    > - - 如果第二个指针还是初始值，也false
+    > - - 如果 `s[first] === goal[second] && s[second] === goal[first]` 说明是亲密字符串
