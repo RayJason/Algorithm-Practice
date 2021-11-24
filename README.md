@@ -273,3 +273,9 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
 
 - 2021.11.24
   - 423 从英文中重建数字
+  - 15 三数之和
+    > 使用for设定左边界进行循环，左边界++，设置两个指针对右边剩余部分进行两数相加
+    > 得到三数之和满足要求push到结果数组
+     
+  - 18 四数之和
+    > 三数之和的升级版，增加一层for循环 
