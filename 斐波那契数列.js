@@ -25,7 +25,7 @@ function fibonacci2(n) {
   for (var i = 2; i < n; i++) {
     num2 += num1
     num1 = num2 - num1
-  }
+  } 
   return num2
 }
 
