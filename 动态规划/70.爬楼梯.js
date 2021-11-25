@@ -17,15 +17,27 @@ var climbStairs = function (n) {
   // return Math.round(fib_n / sqrt_5)
 
   // 动态规划法
-  const dp = []
-  dp[1] = 1
-  dp[2] = 2
-  for (let i = 3; i <= n; i++) {
-    dp[i] = dp[i - 1] + dp[i - 2]
+  // const dp = []
+  // dp[1] = 1
+  // dp[2] = 2
+  // for (let i = 3; i <= n; i++) {
+  //   dp[i] = dp[i - 1] + dp[i - 2]
+  // }
+  // return dp[n]
+
+  // 循环解法
+  if (n < 2) return 1
+  let num1 = 1,
+    num2 = 2
+
+  for (let i = 2; i < n; i++) {
+    num2 += num1
+    num1 = num2 - num1
   }
-  return dp[n]
+
+  return num2
 }
 // @lc code=end
 
 // local test
-console.log(climbStairs(5));
+console.log(climbStairs(4))
