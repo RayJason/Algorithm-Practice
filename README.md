@@ -308,3 +308,9 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
     > 学习了官方更优的二分法+双指针解法  
   - 416 分割等和子集
   - 322 零钱兑换
+
+- 2021.11.30
+  - 400 第 N 位数字
+
+- 2021.12.01
+  - 1446 连续字符
