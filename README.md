@@ -314,3 +314,8 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
 
 - 2021.12.01
   - 1446 连续字符
+
+- 2021.12.02
+  - 20 有效的括号
+    > 单调栈 
+  - 506 相对名次
