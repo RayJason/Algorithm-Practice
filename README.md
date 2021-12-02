@@ -319,3 +319,9 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
   - 20 有效的括号
     > 单调栈 
   - 506 相对名次
+
+- 2021.12.03
+  - 496 下一个更大元素 I
+    > 单调栈 
+  - 456 132模式
+    > 单调栈 
