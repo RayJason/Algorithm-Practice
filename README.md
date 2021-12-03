@@ -327,3 +327,9 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
     > 单调栈 
   - 1005 k次取反后最大化的数组和
      > 据说是贪心算法，但是我写的时候没有这么想过，把情况考虑全就能AC。
+
+- 2021.12.04
+  - 119 杨辉三角
+    > 数学题：1. 找规律；2. 套公式  
+  - 383 赎金信
+    > 用hashmap两个for循环直出 
