@@ -333,3 +333,9 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
     > 数学题：1. 找规律；2. 套公式  
   - 383 赎金信
     > 用hashmap两个for循环直出 
+  - 279 完全平方数
+    > 四平方和定理
+    > 数学解法yyds
+  - 483 最小好进制
+    > 学术不精，写不出来
+    > 数学不能不学
