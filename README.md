@@ -343,3 +343,5 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
 - 2021.12.06
   - 1816 截断句子
     > js split splice join一条代码过
+  - 215 数组中的第k个最大元素
+    > 官方解答使用堆，我又用一行代码交了 
