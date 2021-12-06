@@ -339,3 +339,7 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
   - 483 最小好进制
     > 学术不精，写不出来
     > 数学不能不学
+
+- 2021.12.06
+  - 1816 截断句子
+    > js split splice join一条代码过
