@@ -356,3 +356,6 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
 
 - 2021.12.09
   - 794 有效的井字游戏
+
+- 2021.12.10
+  - 748 最短补全词
