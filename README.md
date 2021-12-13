@@ -385,3 +385,5 @@ leetCode 算法入门 https://leetcode-cn.com/study-plan/algorithms/?progress=pg
     > 可以先将单词存入Set中，先对数组按长度从长到短排序，逐个遍历，每个单词逐字减少，若减到最后一个字母仍在Set中找到，说明满足题目要求，返回单词。  
   - 97 交错字符串
     > 动态规划题，创建一个二维数组记录结果 
+  - 28 实现 strStr()
+    > 此题可以双指针暴力得到，使用KMP算法优化。  
