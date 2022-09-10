@@ -28,5 +28,10 @@ var moveZeroes = function (nums) {
     }
     // 2. 当nums[fast]指向0时，只有fast++
   }
+  // return nums
 }
 // @lc code=end
+
+// LOCAL TEST
+// const input = [1,2,0,5,0,35,2,6]
+// console.log(moveZeroes(input));
