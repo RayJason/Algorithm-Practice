@@ -9,6 +9,27 @@ function randomString(length) {
   return text
 }
 
+const USER_LIST_2 = {
+  gary: 'SPIHtT',
+  rayjason: 'QcfYeh',
+  danney: 'JVBCuS',
+  liqiuyang: 'K5MqfO',
+  qiaodan: 'JpEqRv',
+  gxfan: 'NyjpPz',
+  walle: 'ZNtVWD',
+  yujie: 'x1l7Ba',
+  beiqiao: 'Q41Q3B',
+  licong: 'zzJEc8',
+  liubing: 'fQICEb',
+}
+
+// console.log(randomString(6))
+// console.log(JSON.stringify(USER_LIST_2))
+
+for (const [key, value] of Object.entries(USER_LIST_2)) {
+  console.log(`Sherlock \n账号: ${key} \n密码：${value}`)
+}
+
 function randomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min
 }
@@ -78,7 +99,5 @@ function initOldArr(newArr) {
     }
   })
 }
-
-initNewArr()
 
 export { randomString, randomInt }
